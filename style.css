@@ -41,6 +41,9 @@ p{
 #header_color{
     color: tomato; 
 }
+.header_image img{
+    width: 90%;
+}
 /* ================================
             About css
 =====================================*/
