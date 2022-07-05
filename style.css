@@ -46,7 +46,8 @@ p{
 =====================================*/
 .about_area{
     display: flex;
-    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
    
    
 }
@@ -67,13 +68,13 @@ p{
     display: flex;
 }
 .recipe_detail img{
-    width:90%;
+    width:100%;
 }
 .food-recipe{
     width:40%;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
-    padding:5%;
-    margin: 3%;
+    padding:20px;
+    margin:40px;
     border-radius: 20px;
 
 }
@@ -81,7 +82,25 @@ p{
             Like css
 =====================================*/
 .like_area{
-    width:30%;
     display: flex;
+    text-align: center;
+    box-shadow:0px 4px 40px rgba(0, 0, 0, 0.15);
+   margin-left: 20px;
+   margin-right: 20px;
+    border-radius: 20px;
     
 }
+.like{
+    width:30%;
+}
+/* ================================
+            Footer css
+=====================================*/
+footer{
+    text-align: center;
+    color:white;
+    background-color: black;
+    height:200px;
+    padding-top: 20px;
+}
+
