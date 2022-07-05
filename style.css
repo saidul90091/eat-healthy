@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ================================
+            common css
+=====================================*/
+section{
+    margin-bottom: 100px;
+}
+.half_width{
+    width:50%;
+    margin-left: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.link_button{
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    font-weight:bold;
+    text-decoration:none; 
+    box-shadow: 0px 2px 30px 0px #FC8F4980;
+    ;
+}
+p{
+    margin-bottom: 50px;
+}
+/* ================================
+            header css
+=====================================*/
+.header_area{
+    display: flex;
+}
+.header_details{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#header_color{
+    color: tomato; 
+}
+/* ================================
+            About css
+=====================================*/
+.about_area{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 56.jpg);
+   
+   
+}
+.about_area img{
+    width:50%;
+    margin-left: 100px;
+}
+.about_details{
+    margin-top: 100px;
+}
+/* ================================
+            Recipe css
+=====================================*/
+.recipe_heading{
+    text-align: center;
+}
+.recipe_detail{
+    display: flex;
+}
+.recipe_detail img{
+    width:90%;
+}
+.food-recipe{
+    width:40%;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    padding:5%;
+    margin: 3%;
+    border-radius: 20px;
+
+}
+/* ================================
+            Like css
+=====================================*/
+.like_area{
+    width:30%;
+    display: flex;
+    
+}
